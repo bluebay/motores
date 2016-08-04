@@ -1,0 +1,268 @@
+video {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-moz-transform: translateX(-50%) translateY(-50%);
+-ms-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg') no-repeat; background-size: cover;  -webkit-transition: 1s opacity; transition: 1s opacity; }
+
+.menu {
+  text-align: center;
+  padding-top: 10px;
+}
+.menu ul {
+    list-style-type: none;
+    position:fixed;
+    width: 100%;
+    padding-left: 0;
+    z-index:10;
+
+}
+
+.menu ul li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    color: black;
+
+
+}
+
+.menu a:link {
+ width: 180px;
+ text-decoration:none;
+ background-color: rgba(0, 149, 255, 1);
+}
+
+.menu li a:hover {
+    background-color: rgba(0, 149, 255, 0.5);
+
+}
+
+body > .container-fluid {
+   max-width: 1200px;
+}
+
+.menu li a:active {
+    background-color: #4CAF50;
+}
+
+.menu li {
+  border:1px solid blue;
+  display: inline-block;
+  margin-bottom: 10px;
+
+}
+
+body {
+  background-color: #white;
+
+}
+
+.caja-superior {
+
+
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin-top:40px;
+  background-color:rgba(0, 0, 0, 0.3);
+
+
+}
+
+.tecnico {
+  text-align: center;
+}
+
+.motor {
+  text-align: center;
+}
+
+.caja-interna-motor {
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.8);
+  padding: 5px 5px 5px 5px;
+}
+
+.caja-interna-motor img {
+  max-width: 85%;
+  max-height: 265px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.caja-interna-tecnico {
+  text-align: left;
+  background-color:rgba(0, 0, 0, 0.8);
+  padding: 5px;
+
+
+}
+
+.caja-interna-tecnico h1 {
+  font-size: 15px;
+  padding: 5px;
+  background-color:rgba(0, 149, 255, 0.7);
+  color: white;
+  margin:0;
+  margin-bottom: 10px
+}
+
+
+.caja-interna-tecnico h1.titulo-2-tiempos {
+  background-color:rgba(255, 70, 0, 0.7);
+}
+
+.caja-interna-tecnico h1.tituloelectrico {
+  background-color:rgba(0, 255, 0, 0.7);
+}
+
+.mitad1 {
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+
+
+}
+
+.mitad2 {
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+
+}
+
+.precio {
+  color: rgba(0, 149, 255, 0.9);
+  font-weight:bold;
+}
+
+.cajamayor {
+  margin-top: 160px;
+  background-color: rgba(0, 0, 0, 0.3);
+
+
+}
+
+.info-motores-fuera-de-borda1 {
+
+  text-align: justify;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+
+  color: white;
+
+
+}
+
+.info-motores-fuera-de-borda2 {
+
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.info-motores-fuera-de-borda2 img {
+  max-width: 60%;
+  max-height: 110px;
+  margin-left: 100px;
+}
+
+.info-motores-fuera-de-borda1 h1 {
+  font-size:210%;
+}
+
+.caja-interna-tecnico h2 {
+  font-size: 15px;
+  padding: 5px;
+  background-color:rgba(0, 149, 255, 0.7);
+  color: white;
+  margin:0;
+  margin-bottom: 10px
+}
+
+
+.caja-interna-tecnico h2.titulo-2-tiempos {
+  background-color:rgba(255, 70, 0, 0.7);
+}
+
+.caja-interna-tecnico h2.tituloelectrico {
+  background-color:rgba(0, 255, 0, 0.7);
+}
+
+.scrolling1 {
+  max-height: 10%;
+}
+
+.fondomenu {
+  background-color:rgba(0, 0, 0, 0.9);
+  height: 30px;
+  vertical-align: middle;
+}
+
+.contenedor5 {
+margin-top: 20px;
+background:rgba(0, 0, 0, 0.8);
+padding: 30px;
+font-weight:none;
+color: white;
+-webkit-box-shadow: 0px 16px 16px -8px rgba(0, 0, 0, 0.7);
+-moz-box-shadow:    0px 16px 16px -8px rgba(0, 0, 0, 0.7);
+box-shadow:         0px 16px 16px -8px rgba(0, 0, 0, 0.7);
+
+
+}
+.contacto img {
+  max-width: 30px;
+  margin-right: 10px;
+
+
+
+}
+
+.contacto  {
+margin-bottom: none;
+margin-top: none;
+margin-top: 50px;
+
+}
+
+.transporte img {
+  max-width: 150px;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.transporte {
+
+}
+
+.menuchico {
+  background: rgba(0, 0, 255, 0.4);
+  border-color: transparent;
+
+}
+
+.barra {
+background: black;
+}
+
+nav.menuarriba {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.menuutop {
+  background: rgba(255, 0, 0, 0.5);
+}
